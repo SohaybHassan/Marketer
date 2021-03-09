@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Tabseet Marketer</string>
+    <string name="tabseet">Tabseet</string>
+    <string name="loginText">Login</string>
+    <string name="yourphone">Your Phone</string>
+    <string name="yourPassword">YourPassword</string>
+    <string name="change_passwor">Change Passwor</string>
+    <string name="text_change_passwor">Please change the password first to log in For application</string>
+    <string name="old_password">Old Password</string>
+    <string name="newPassword">New Passwrod</string>
+    <string name="confirm_new_password">Confirm the new password</string>
+    <string name="name_of_home_fragment">home</string>
+    <string name="number_of_vistor">number of vistor: </string>
+    <string name="date_of_vister">22-5-2020</string>
+    <string name="number_of_entry_fee">Entry_Fee </string>
+    <string name="visits">Visits</string>
+    <string name="record">Record</string>
+    <string name="confirm_payment">Confirm  Payment</string>
+    <string name="city_name">City Name</string>
+    <string name="text_comfirm">To confirm the customer\'s payment in cash, click the Confirm button and cleane the code from the client application</string>
+    <string name="Confirm_the_payment_process">Confirm the payment process</string>
+    <string name="neighborhood">Neighborhood</string>
+    <string name="group">group</string>
+    <string name="facility_type">Facility type</string>
+    <string name="additional_details_of_the_site">Additional details of the site</string>
+    <string name="qr_code">QR Code</string>
+    <string name="notifications">Notifications</string>
+    <string name="scanYourCode">Scan the code from the camera in the client application</string>
+    <string name="Attention">Attention</string>
+    <string name="tv_confirm">Payment has been successfully confirmed by Cash</string>
+    <string name="Ok">OK</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="chosee_your_Location">chosee Your Location</string>
+    <string name="no_inter_net">No InterNet Conection</string>
+    <string name="no_inter_nether">Make sure you are online and then download again</string>
+    <string name="refresh">Refresh</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="stting">setting</string>
+    <string name="tv_change_password">change password</string>
+    <string name="tv_change_language">change language</string>
+    <string name="call_us">call us</string>
+    <string name="logout">Logout</string>
+    <string name="tv_Massage">Submit a suggestion or complaint</string>
+    <string name="ContactUS">ContactUS</string>
+    <string name="Englsh">Englsh</string>
+    <string name="Arabic">Arabic</string>
+    <string name="Language">Language</string>
+    <string name="submit_suggestion_complaint">Submit a suggestion or complaint</string>
+    <string name="Write_her">Write Her</string>
+    <string name="send">Send</string>
+    <string name="notification_bady">Notification Text her</string>
+    <string name="default_notification_channel_id">test</string>
+    <string name="fcm_message">titel</string>
+    <string name="no_data">No  Data</string>
+    <string name="msg_token_fmt">msg token fmt</string>
+    <string name="home">Home</string>
+    <string name="myRecord">Record</string>
+    <string name="setting">Setting</string>
+
+    <string name="r_s"> R.S</string>
+    <string name="first_payment_fees">First payment fees</string>
+    <string name="save">Save</string>
+
+
+    <string name="today">ToDay</string>
+</resources>

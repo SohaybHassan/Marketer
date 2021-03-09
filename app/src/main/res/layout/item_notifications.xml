@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/_14sdp"
+    android:layout_marginTop="@dimen/_13sdp"
+    android:layout_marginEnd="@dimen/_14sdp"
+    android:orientation="vertical"
+    app:cardCornerRadius="@dimen/_5sdp"
+    app:cardElevation="@dimen/_5sdp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/_8sdp"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageView
+            android:id="@+id/image_item_Vistor"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_marginStart="8dp"
+            android:src="@drawable/item_image"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/view"
+            app:layout_constraintTop_toBottomOf="@id/time_of_notification"
+            app:layout_constraintVertical_bias="0.23000002" />
+
+
+        <TextView
+            android:id="@+id/notification_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:text="@string/notification_bady"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/_13sdp"
+            app:layout_constraintBottom_toBottomOf="@id/image_item_Vistor"
+            app:layout_constraintStart_toEndOf="@id/image_item_Vistor"
+            app:layout_constraintTop_toTopOf="@id/image_item_Vistor"
+            app:layout_constraintVertical_bias="0.18" />
+
+        <TextView
+            android:id="@+id/time_of_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:drawableStart="@drawable/ic_calendar"
+            android:drawablePadding="@dimen/_3sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:hint="@string/date_of_vister"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/_9sdp"
+           app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

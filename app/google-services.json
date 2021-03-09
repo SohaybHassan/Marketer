@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "262186992173",
+    "firebase_url": "https://tabseet-fcm.firebaseio.com",
+    "project_id": "tabseet-fcm",
+    "storage_bucket": "tabseet-fcm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262186992173:android:2cfca8f5edbca676eaeea4",
+        "android_client_info": {
+          "package_name": "com.misknet.tabseet.marketer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262186992173-14jsupo17u0d0bjphj415e7ej6bsl6bm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.misknet.tabseet.marketer",
+            "certificate_hash": "27b3102fc2e6ac98898b24261a033311917bf86c"
+          }
+        },
+        {
+          "client_id": "262186992173-nn8gmrkq8j9r67023hd6ehm5mfqh8n4h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzhEoPx44OUnzLY8c_nunbuW5L7gk63IQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262186992173-nn8gmrkq8j9r67023hd6ehm5mfqh8n4h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "262186992173-i5stvotbsi0pji88uot5nd12auajfhu8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.Tabseet"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nested_scroll_view"
+        android:layout_width="match_parent"
+        app:layout_behavior=".ToolbarBehaviour"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" hi thir
+            String String String String String String String
+             String String String String
+            String String String String String String String
+            String String String String String String String String String
+            String String String String String String String String String String'
+             String String String String String String String String String String
+              String String String String String String String String String String
+               Stg String String String String
+                String String String String String String String String String String
+                 String String String String String String String String String String
+                  String String String String String String String String String String
+                  String String String String String String String String String String
+                  String String String Strin
+            g String String String
+sohiyp hassan"
+            android:textSize="@dimen/_20sdp" />
+
+
+    </androidx.core.widget.NestedScrollView>
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#ff0" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/van_shape"
+        app:itemIconTint="@drawable/item_bottom_navigation_view"
+        app:itemTextColor="@drawable/item_bottom_navigation_view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:menu="@menu/menu_navaction_bottom" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

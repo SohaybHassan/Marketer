@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/homeFragment"
+    android:id="@+id/nav_graph">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.misknet.tabseet.marketer.featuers.HomeFragment.view.homeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/recordFragment"
+        android:name="com.misknet.tabseet.marketer.featuers.RecoedFragment.view.RecordFragment"
+        android:label="@string/myRecord"
+        tools:layout="@layout/fragment_record">
+
+    </fragment>
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.misknet.tabseet.marketer.featuers.settingFragment.view.SettingFragment"
+        android:label="@string/setting"
+        tools:layout="@layout/fragment_setting">
+
+    </fragment>
+
+
+
+</navigation>

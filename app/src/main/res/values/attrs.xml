@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EditTextThought">
+        <attr name="new_image_resrses" format="reference" />
+        <attr name="new_text" format="string" />
+        <attr name="android:inputType"/>
+        <attr name="android:state_enabled"/>
+
+
+<!--        <attr name="inputType" format="enum">-->
+<!--            <enum  name="none" value="0" />-->
+<!--            <enum  name="text" value="1" />-->
+<!--            <enum  name="textCapCharacters" value="4096" />-->
+<!--            <enum  name="textCapWords" value="8192" />-->
+<!--            <enum  name="textCapSentences" value="16384" />-->
+<!--            <enum  name="textAutoCorrect" value="32768" />-->
+<!--            <enum  name="textAutoComplete" value="65536" />-->
+<!--            <enum  name="textMultiLine" value="131072" />-->
+<!--            <enum  name="textImeMultiLine" value="262144" />-->
+<!--            <enum  name="textNoSuggestions" value="524288" />-->
+<!--            <enum  name="textUri" value="16" />-->
+<!--            <enum  name="textEmailAddress" value="32" />-->
+<!--            <enum  name="textEmailSubject" value="48" />-->
+<!--            <enum  name="textShortMessage" value="64" />-->
+<!--            <enum  name="textLongMessage" value="80" />-->
+<!--            <enum  name="textPersonName" value="96" />-->
+<!--            <enum  name="textPostalAddress" value="112" />-->
+<!--            <enum  name="textPassword" value="128" />-->
+<!--            <enum  name="textVisiblePassword" value="144" />-->
+<!--            <enum  name="textWebEditText" value="160" />-->
+<!--            <enum  name="textFilter" value="176" />-->
+<!--            <enum  name="textPhonetic" value="192" />-->
+<!--            <enum  name="textWebEmailAddress" value="208" />-->
+<!--            <enum  name="textWebPassword" value="224" />-->
+<!--            <enum  name="number" value="2" />-->
+<!--            <enum  name="numberSigned" value="4096" />-->
+<!--            <enum  name="numberDecimal" value="8192" />-->
+<!--            <enum  name="numberPassword" value="16" />-->
+<!--            <enum  name="phone" value="3" />-->
+<!--            <enum  name="datetime" value="4" />-->
+<!--            <enum  name="date" value="16" />-->
+<!--            <enum  name="time" value="32" />-->
+<!--        </attr>-->
+
+
+    </declare-styleable>
+</resources>

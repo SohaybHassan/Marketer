@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".featuers.LoginAvtivity.view.LoginActivity">
+
+
+    <include
+        android:id="@+id/layout_no_internet"
+        layout="@layout/no_inter_conection"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+
+    <ImageView
+        android:id="@+id/image_login_Activity"
+        android:layout_width="@dimen/_124sdp"
+        android:layout_height="@dimen/_71sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:src="@drawable/logo_splash"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_tabseet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tabseet"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/_13sdp"
+        app:layout_constraintEnd_toEndOf="@id/image_login_Activity"
+        app:layout_constraintStart_toStartOf="@id/image_login_Activity"
+        app:layout_constraintTop_toBottomOf="@id/image_login_Activity" />
+
+
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_43sdp"
+        android:text="@string/loginText"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/_18sdp"
+
+        app:layout_constraintEnd_toEndOf="@id/text_tabseet"
+        app:layout_constraintStart_toStartOf="@id/text_tabseet"
+        app:layout_constraintTop_toBottomOf="@id/text_tabseet"
+
+        />
+
+    <com.misknet.tabseet.marketer.custemEditText.EditTextThought
+        android:id="@+id/ed_your_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_24sdp"
+        android:layout_marginTop="@dimen/_23sdp"
+        android:layout_marginEnd="@dimen/_24sdp"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@id/tv_login"
+        app:layout_constraintStart_toStartOf="@id/tv_login"
+        app:layout_constraintTop_toBottomOf="@id/tv_login"
+        app:new_image_resrses="@drawable/ed_image_phone"
+        app:new_text="@string/yourphone"
+        />
+
+
+    <com.misknet.tabseet.marketer.custemEditText.EditTextThought
+        android:id="@+id/ed_your_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_24sdp"
+        android:layout_marginEnd="@dimen/_24sdp"
+        android:inputType="textPassword"
+
+        app:layout_constraintEnd_toEndOf="@id/ed_your_phone"
+        app:layout_constraintStart_toStartOf="@id/ed_your_phone"
+        app:layout_constraintTop_toBottomOf="@id/ed_your_phone"
+        app:new_image_resrses="@drawable/alock_image"
+        app:new_text="@string/yourPassword" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_log_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_24sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_24sdp"
+        android:backgroundTint="@color/btnBackground"
+        android:padding="@dimen/_10sdp"
+        android:text="@string/loginText"
+        android:textColor="@color/btnTextClolr"
+        app:cornerRadius="@dimen/_8sdp"
+        app:layout_constraintTop_toBottomOf="@id/ed_your_password" />
+
+    <ProgressBar
+        android:id="@+id/avi"
+        style="@style/AVLoadingIndicatorView.Large"
+        android:layout_width="@dimen/_24sdp"
+        android:layout_height="@dimen/_24sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:elevation="@dimen/_5sdp"
+        android:indeterminateTint="#fff"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/btn_log_in"
+        app:layout_constraintEnd_toEndOf="@id/btn_log_in"
+        app:layout_constraintTop_toTopOf="@id/btn_log_in" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_50sdp"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:id="@+id/contecter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:alpha="0.4"
+        android:background="@drawable/ed_shape"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/ed_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:drawablePadding="@dimen/_5sdp"
+            android:gravity="center"
+            android:minWidth="@dimen/_50sdp"
+            android:textColor="#0271B8"
+            android:alpha="0.5"
+
+            android:textSize="@dimen/_13sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/ed_phone_after_clicked_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/_3sdp"
+        android:paddingEnd="@dimen/_3sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:background="#fff"
+        android:drawablePadding="@dimen/_5sdp"
+        android:textColor="#0271B8"
+        android:textSize="@dimen/_10sdp"
+        android:visibility="invisible" />
+</FrameLayout>
+
+
+
+
+
+

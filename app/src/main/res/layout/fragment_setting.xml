@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".featuers.settingFragment.view.SettingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_en_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:drawableEnd="@drawable/ic_change_password"
+        android:padding="@dimen/_5sdp"
+        android:text="@string/tv_change_password" />
+
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_below="@id/tv_en_language"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:background="#e5e5e5" />
+
+    <TextView
+        android:id="@+id/tv_ar_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view1"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:drawableEnd="@drawable/ic_world"
+        android:padding="@dimen/_5sdp"
+        android:text="@string/tv_change_language" />
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_below="@id/tv_ar_language"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:background="#e5e5e5" />
+
+    <TextView
+        android:id="@+id/tv_call_us"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view2"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:drawableEnd="@drawable/ic_phone"
+        android:padding="@dimen/_5sdp"
+        android:text="@string/call_us" />
+
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_below="@id/tv_call_us"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:background="#e5e5e5" />
+
+    <TextView
+        android:id="@+id/tv_log_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view3"
+        android:layout_marginStart="@dimen/_16sdp"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_16sdp"
+        android:drawableEnd="@drawable/ic_logout"
+        android:padding="@dimen/_5sdp"
+        android:text="@string/logout" />
+</RelativeLayout>

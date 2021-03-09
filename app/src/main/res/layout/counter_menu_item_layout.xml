@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/BadgeFrameLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_alarm">
+    <RelativeLayout
+        android:id="@+id/BadgeRelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_notification_counter">
+        <TextView
+            android:paddingStart="1dp"
+            android:paddingEnd="1dp"
+            android:id="@+id/BadgeCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:padding="2dp"
+            android:textColor="@android:color/white"
+            android:textSize="8sp" />
+    </RelativeLayout>
+</FrameLayout>
